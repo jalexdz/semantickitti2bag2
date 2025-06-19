@@ -1,10 +1,9 @@
-# semantickitti2bag
+# semantickitti2bag2
 
 
-**This program was running under Python 2.7, which is out of support today**
-**This program runs under ROS Melodic (Python 2.7); if you want to use Noetic or later ROS, you need to modify it to run under Python 3.**
+**This program runs under ROS Humble.**
 
-"semantickitti2bag" contains helpful python programs to convert SemanticKITTI dataset to rosbag file.
+"semantickitti2bag2" contains helpful python programs to convert SemanticKITTI dataset to ros2 bag file.
 
  * Link to original [KITTI Odometry dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)
  * Link to [SemanticKITTI dataset](http://semantic-kitti.org/)
@@ -33,13 +32,13 @@ SemanticKITTI dataset has voxel data, but this repository doesn't handle.
 
 # How to install it?
 ```bash
-git clone https://github.com/amslabtech/semantikitti2bag
+git clone https://github.com/jalexdz/semantikitti2bag2
 ```
 
 # How to run it
 
 ```bash
-cd PLACE/OF/semantickitti2bag
+cd PLACE/OF/semantickitti2bag2
 python __main__.py -p /home/****/your_dataset_directory/kitti/dataset/ -s 00
 ```
 
